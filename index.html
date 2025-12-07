@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UMM Library - Pendaftaran Pengunjung</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Merriweather', 'serif'],
+            },
+            colors: {
+              library: {
+                50: '#fff7ed',  /* Orange 50 */
+                100: '#ffedd5', /* Orange 100 */
+                200: '#fed7aa', /* Orange 200 */
+                300: '#fdba74', /* Orange 300 */
+                400: '#fb923c', /* Orange 400 */
+                500: '#f97316', /* Orange 500 */
+                600: '#ea580c', /* Orange 600 - Primary */
+                700: '#c2410c', /* Orange 700 */
+                800: '#9a3412', /* Orange 800 */
+                900: '#7c2d12', /* Orange 900 */
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "jspdf": "https://esm.sh/jspdf@2.5.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-library-50 text-gray-800 antialiased">
+    <div id="root"></div>
+  </body>
+</html>
